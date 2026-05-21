@@ -1,0 +1,9 @@
+ssh/id_*
+ssh/*.pem
+ssh/known_hosts
+
+.DS_Store
+
+.env
+.env.local
+*.secret

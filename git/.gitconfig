@@ -1,0 +1,23 @@
+[user]
+    name = sumiyuki-sub
+    email = 285984494+sumiyuki-sub@users.noreply.github.com
+
+[core]
+    pager = delta
+
+[delta]
+    navigate = true
+    side-by-side = true
+    line-numbers = true
+
+[interactive]
+    diffFilter = delta --color-only
+
+[alias]
+    st = status
+    co = checkout
+    br = branch
+    lg = log --oneline --graph --decorate --all
+
+[init]
+    defaultBranch = main
