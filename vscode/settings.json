@@ -1,8 +1,8 @@
 {
-    "editor.fontSize": 12,
-    "editor.fontFamily": "",
+    "editor.fontSize": 15,
+    "editor.fontFamily": "JetBrains Mono",
     "editor.minimap.enabled": false,
     "terminal.integrated.stickyScroll.enabled": false,
     "workbench.activityBar.compact": true,
-    "workbench.startupEditor": "none",
+    "workbench.startupEditor": "none"
 }
