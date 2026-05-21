@@ -1,0 +1,6 @@
+{
+    // "editor.fontSize": ,
+    // "editor.fontFamily": "",
+    "terminal.integrated.stickyScroll.enabled": false,
+    "workbench.activityBar.compact": true
+}
