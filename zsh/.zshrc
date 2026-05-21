@@ -12,6 +12,9 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
+#mise
+eval "$(mise activate zsh)"
+
 #Claude Code
 export PATH="$HOME/.local/bin:$PATH"
 
@@ -21,9 +24,6 @@ export PATH="$PATH:$GOPATH/bin"
 
 #Rust
 source "$HOME/.cargo/env"
-
-#mise
-eval "$(mise activate zsh)"
 
 #zoxide
 eval "$(zoxide init zsh)"

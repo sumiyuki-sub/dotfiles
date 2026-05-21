@@ -17,13 +17,14 @@ brew "httpie"
 brew "zoxide"
 brew "stow"
 brew "wget"
+brew "readline" #ruby依存
+brew "libyaml"  #ruby依存
+brew "gmp"      #ruby依存
 
 
 #GUI
 cask "ghostty"
 cask "visual-studio-code"
-cask "docker"
-cask "google-chrome"
 cask "raycast" 
 cask "notion" 
 cask "slack" 

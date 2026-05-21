@@ -51,5 +51,9 @@ echo "🔗 シンボリックリンク作成..."
 cd "$DOTFILES"
 stow zsh git mise ghostty
 
+echo "💻 VSCode設定..."
+ln -sf "$DOTFILES/vscode/settings.json" \
+    "$HOME/Library/Application Support/Code/User/settings.json"
+
 echo "✅ セットアップ完了！"
 echo "👉 ターミナル再起動してな！"
