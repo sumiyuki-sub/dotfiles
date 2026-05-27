@@ -22,6 +22,11 @@ fi
 eval "$(/opt/homebrew/bin/brew shellenv)"
 brew bundle --file="$DOTFILES/Brewfile" --no-upgrade || true
 
+echo "🔐 zsh補完ディレクトリ権限確認..."
+if [ -d "$HOMEBREW_PREFIX/share" ]; then
+    chmod g-w "$HOMEBREW_PREFIX/share"
+fi
+
 "$DOTFILES/link.sh"
 
 if command -v code &>/dev/null && [ -f "$DOTFILES/vscode/extensions.txt" ]; then
